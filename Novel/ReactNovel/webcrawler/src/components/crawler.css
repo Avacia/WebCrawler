@@ -1,0 +1,82 @@
+.App{
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fontBtnContainer{
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    gap:3rem;
+    right:0;
+}
+
+
+.fontBtn{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+
+.fontBtn:hover {
+    border-color: #646cff;
+}
+
+
+.fontBtn:focus, .fontBtn:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.pageBtnContainer{
+    padding-top:10vh;
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+
+.pageBtn{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+
+.pageBtn:hover {
+    border-color: #646cff;
+}
+
+
+.pageBtn:focus, .pageBtn:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.paragraph{
+    padding-top:10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
